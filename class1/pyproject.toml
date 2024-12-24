@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "class1"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain-core = "^0.3.26"
+langchain-google-genai = "^2.0.7"
+langgraph = "^0.2.60"
+langgraph-cli = {extras = ["inmem"], version = "^0.1.64"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
